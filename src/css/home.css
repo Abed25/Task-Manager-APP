@@ -1,7 +1,27 @@
-div.taskCont{
-    background-color: gray;
-    color: blue;
+div.homePage{
+    width: 100%;
+    float: none;
+    box-sizing: border-box;
 }
-div.adminCont h1{
-    color: red;
+div.tasksContainer{
+    float: left;
+    background-color: rgba(128, 128, 128, 0.377);
+    width: 68%;
+    height: 98vh;
+    overflow-y: scroll;
+}
+div.adminContainer{
+    float: right;
+    width: 30%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 98vh;
+}
+div.adminContainer h2, div.tasksContainer h2{
+    color: blue;
+    position: sticky;
+    top: 10px;
+    text-align: center;
+    text-decoration: underline;
 }
