@@ -5,8 +5,8 @@ import "../css/dynamicDiv.css"
 export default function DynamicDiv(props) {
   return (
     <div className='container'>
-        <h3>Task title</h3>
-      <p>Task's little description</p>
+        <h3>{props.title}</h3>
+      <p>{props.description}</p>
     <Button 
     title="update"
     style= {{background: "green"}}
