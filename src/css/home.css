@@ -20,8 +20,10 @@ div.adminContainer{
 }
 div.adminContainer h2, div.tasksContainer h2{
     color: blue;
-    position: sticky;
     top: 10px;
     text-align: center;
     text-decoration: underline;
+}
+div.taskContainer h2{
+    position: sticky;
 }
